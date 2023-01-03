@@ -9,7 +9,7 @@ export interface Row {
     lower_bound: number,
     trigger_alert: number | undefined,
 }
-
+//updaded schema values
 
 export class DataManipulator {
     static generateRow(serverRespond: ServerRespond[]): Row {

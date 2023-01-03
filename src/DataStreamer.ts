@@ -8,7 +8,7 @@ export interface ServerRespond {
   top_ask: Order,
   timestamp: Date,
 }
-
+//added DataStreamer
 class DataStreamer {
   static API_URL: string = 'http://localhost:8080/query?id=1';
 
